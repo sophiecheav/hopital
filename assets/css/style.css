@@ -28,9 +28,28 @@ header .bg-img
   background-image: url(../img/bg-electro.png);
 }
 
-.picto
+.features-icons
 {
-  font-size: 2em;
-  color: #e84997;
-  text-align: center;
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+.features-icons .features-icons-item
+{
+  max-width: 20em;
+}
+
+.features-icons .features-icons-item .features-icons-icon
+{
+  height: 7em;
+}
+
+.features-icons .features-icons-item .features-icons-icon i
+{
+  font-size: 4.5em;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i
+{
+  font-size: 5em;
 }
