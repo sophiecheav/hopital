@@ -53,3 +53,19 @@ header .bg-img
 {
   font-size: 5em;
 }
+
+.opacity
+{
+  opacity: 0.5;
+}
+
+.btn
+{
+  text-align: center;
+}
+
+.features-icons
+{
+  font-size: 150px;
+  color: green;
+}
