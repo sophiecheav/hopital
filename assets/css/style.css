@@ -60,6 +60,8 @@ header .jumbotron
   opacity: 0.2;
 }
 
+/* section pictos */
+
 .features-icons
 {
   font-size: 120px;
@@ -94,6 +96,8 @@ div .features-icons-icon .dflex
     padding-left: 40px;
 }
 
+/* div explorez */
+
 .row
 {
   margin-right: 20px;
@@ -118,6 +122,8 @@ div .features-icons-icon .dflex
   width: 100%;
 }
 
+/* div équipe */
+
 div .jumbotron
 {
   position: relative;
@@ -134,6 +140,8 @@ div .jumbotron
   margin-top: 30px;
   margin-left: 150px;
 }
+
+/* contactez-nous */
 
 .call-to-action
 {
@@ -159,4 +167,70 @@ div .jumbotron
 button .align-center
 {
   vertical-align: middle;
+}
+
+/* fiche doc HTML */
+
+header .bg-color
+{
+  background-color: #e84a9b;
+}
+
+div .profile
+{
+  display: flex;
+  margin-left: 80px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+div .photo-profile
+{
+  margin-right: 20px;
+}
+
+div .name-profile
+{
+  font-size: 1.2em;
+}
+
+.bg-grey
+{
+  background color: grey;
+}
+
+div .flex
+{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+div .bloc
+{
+  background-color: #bcbdbd;
+  border-radius: 20px;
+  width: 40%;
+  text-align: justify;
+  box-shadow: 2px 2px 2px grey;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 10px 10px;
+}
+
+div .blocplan
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.bloc h2
+{
+  color: #e84a9b;
+  font-size: 1.5em;
+}
+
+.plan iframe
+{
+  margin-left: 115px;
 }
