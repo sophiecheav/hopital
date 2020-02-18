@@ -55,11 +55,6 @@ header .jumbotron
   margin-top: 200px;
 }
 
-header .bg-img
-{
-  background-image: url(../img/bg-electro.png);
-}
-
 .opacity
 {
   opacity: 0.2;
@@ -89,6 +84,7 @@ div .features-icons-icon .dflex
 {
   padding-right: 40px;
   padding-left: 40px;
+  justify-content: center;
 }
 
 .display-4 {
@@ -102,6 +98,7 @@ div .features-icons-icon .dflex
 {
   margin-right: 20px;
   margin-left: 2px;
+  margin-top: 20px;
 }
 
 .btn-explore
@@ -119,4 +116,47 @@ div .features-icons-icon .dflex
   padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
+}
+
+div .jumbotron
+{
+  position: relative;
+  background-size: cover;
+}
+.jumbotron h2
+{
+  text-align: center;
+  color: green;
+}
+
+.jumbotron img
+{
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+.call-to-action
+{
+  position:relative;
+  background-color:#343a40;
+  background:url(../img/bg-masthead.jpg) no-repeat center center;
+  background-size:cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.call-to-action .overlay
+{
+  position:absolute;
+  background-color:#212529;
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  opacity:.3
+}
+
+button .align-center
+{
+  vertical-align: middle;
 }
