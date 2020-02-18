@@ -3,24 +3,56 @@ body
   font-family: 'Roboto', sans-serif;
 }
 
-h1,h2,h3
+header
+{
+  margin-bottom: 50px;
+}
+
+h1
 {
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
 }
 
+h2, h3
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.col-sm-12 h3
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  color: green
+}
+.col-sm-12 p
+{
+  font-size: 1.5em;
+  color: green;
+  opacity: 0.8;
+}
+nav a
+{
+  font-size: 1em;
+}
+
+nav li
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+}
+
+header .jumbotron
+{
+  position: relative;
+  background: url(../img/bg-electro.png) no-repeat center center;
+  background-size: cover;
+}
+
 .container-fluid
 {
-
-}
-
-.jumbotron-fluid
-{
-}
-
-.container
-{
-
+  margin-top: 200px;
 }
 
 header .bg-img
@@ -28,44 +60,63 @@ header .bg-img
   background-image: url(../img/bg-electro.png);
 }
 
-.features-icons
-{
-  padding-top: 7em;
-  padding-bottom: 7em;
-}
-
-.features-icons .features-icons-item
-{
-  max-width: 20em;
-}
-
-.features-icons .features-icons-item .features-icons-icon
-{
-  height: 7em;
-}
-
-.features-icons .features-icons-item .features-icons-icon i
-{
-  font-size: 4.5em;
-}
-
-.features-icons .features-icons-item:hover .features-icons-icon i
-{
-  font-size: 5em;
-}
-
 .opacity
 {
-  opacity: 0.5;
-}
-
-.btn
-{
-  text-align: center;
+  opacity: 0.2;
 }
 
 .features-icons
 {
-  font-size: 150px;
+  font-size: 120px;
   color: green;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+div .features-icons-icon .dflex
+{
+  margin-left: 50px;
+}
+.d-flex
+{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 120px;
+}
+
+.form-row
+{
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-left: 40px;
+}
+
+.row
+{
+  margin-right: 20px;
+  margin-left: 2px;
+}
+
+.btn-explore
+{
+  padding: 10px 50px;
+  font-size: 1.2em;
+  display: flex;
+  margin-left: 140px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.container-fluid .margin
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
 }
