@@ -8,6 +8,19 @@ header
   margin-bottom: 50px;
 }
 
+.btn-search a
+{
+  text-decoration: none;
+  color: white;
+}
+
+.btn-search a:hover
+{
+  text-decoration: none;
+  color: white;
+  opacity: 70%;
+}
+
 h1
 {
   font-family: 'Roboto', sans-serif;
@@ -89,7 +102,8 @@ div .features-icons-icon .dflex
   justify-content: center;
 }
 
-.display-4 {
+.display-4
+{
     font-size: 3.5rem;
     font-weight: 300;
     line-height: 1.5;
@@ -196,7 +210,6 @@ div .name-profile
 
 .bg-grey
 {
-  background color: grey;
 }
 
 div .flex
@@ -204,6 +217,7 @@ div .flex
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  background color: grey;
 }
 
 div .bloc
